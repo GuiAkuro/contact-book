@@ -28,7 +28,7 @@ function Label({ children, ...props }: LabelProps) {
 }
 
 interface EntryProps extends InputHTMLAttributes<HTMLInputElement> {
-  children: any;
+  children?: any;
   name: string;
 }
 
